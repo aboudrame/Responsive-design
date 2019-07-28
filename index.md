@@ -171,7 +171,7 @@ $(function () {
                                     alert(index + ' = ' + value);
                                     if (index == "body") {
                                         var d2 = $.parseJSON(JSON.stringify(value));
-                                        alert(d2);
+                                        alert(d2.submitok);
                                     }
                             });
 
