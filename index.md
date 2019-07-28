@@ -168,12 +168,14 @@ $(function () {
                              var d = $.parseJSON(JSON.stringify(result));
                     
                             $.each(d, function (index, value) {
-                                    alert(index + ' = ' + value);
+                                    //alert(index + ' = ' + value);
                                     if (index == "body") {
                                         var d2 = $.parseJSON(JSON.stringify(value));
+                                        alert('d2= ' + d2);
+
                                         $.each(d2, function (i, v) {
                                             alert(i + ' = ' + v);
-                                        })
+                                        });
                                         
                                     }
                             });
