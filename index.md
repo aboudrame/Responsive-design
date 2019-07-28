@@ -171,9 +171,12 @@ $(function () {
                            var jsonparse = JSON.parse(result.body);
 
                            for (x in jsonparse) {
-                           alert(x + ' = ' + jsonparse[x]);
+                               if (x == "submitok") {
+                                    //alert(x + ' = ' + jsonparse[x]);
+                                    $(".custom_ajax").html(jsonparse[x]);
+                               }
                            };
-                            $(".custom_ajax").html("Congratulations! Your spot is reserved");
+                           // $(".custom_ajax").html("Congratulations! Your spot is reserved");
                 
                        }
                    });
