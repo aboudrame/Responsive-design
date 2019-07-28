@@ -1,1 +1,1 @@
-# Responsive design1
+# Responsive design
