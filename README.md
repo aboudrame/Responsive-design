@@ -1,1 +1,1 @@
-# Mockup
+# Responsive design
