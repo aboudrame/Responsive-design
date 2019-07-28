@@ -174,7 +174,9 @@ $(function () {
                                         //alert('d2= ' + d2);
 
                                        var ar = $.map(d2, function (v, k) {
-                                           alert(k + ' = ' + v)
+
+                                           alert(k + ' = ' + v);
+                                           return v;
                                         });
                                     }
                             });
