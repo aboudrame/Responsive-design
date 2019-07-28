@@ -312,3 +312,4 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 YES! Reserve My Spot Now! >>
 </div>
 </div>
+<div style="text-align: right">By <strong>Aboubacar DRAME</strong> <br> professional full stack web developer</div>
