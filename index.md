@@ -171,12 +171,11 @@ $(function () {
                                     //alert(index + ' = ' + value);
                                     if (index == "body") {
                                         var d2 = $.parseJSON(JSON.stringify(value));
-                                        alert('d2= ' + d2);
+                                        //alert('d2= ' + d2);
 
-                                        $.each(d2, function (i, v) {
-                                            alert(i + ' = ' + v);
+                                       var ar = $.map(d2, function (v, k) {
+                                           alert(k + ' = ' + v)
                                         });
-                                        
                                     }
                             });
 
