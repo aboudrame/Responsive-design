@@ -104,8 +104,8 @@ $(function () {
 
             $('.checkbox > input').off('click').on('click', function () {
                 //Always hide these 2 on clicks
-                $('.custom_alert').hide();
-                $('.custom_ajax').hide();
+                $('.custom_alert').hide(3000);
+                $('.custom_ajax').hide(3000);
 
                 if ( $(this).attr('checked') === 'checked' ) {
                     $('.checkbox > input')
@@ -177,7 +177,7 @@ $(function () {
                                if (x == "submitok") {
                                     $(".custom_ajax")
                                         .html(jsonparse[x])
-                                        .show();
+                                        .show(3000);
                                }
                            };
                        }
