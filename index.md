@@ -168,7 +168,7 @@ $(function () {
                              var d = $.parseJSON(JSON.stringify(result));
                     
                             $.each(d, function (index, jsondata) {
-                                    alert(index + ' = ' + jsondata.submitok);
+                                    alert(index + ' = ' + jsondata);
                             });
 
                             $(".custom_ajax").html("Congratulations! Your spot is reserved");
