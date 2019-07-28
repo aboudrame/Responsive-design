@@ -167,8 +167,11 @@ $(function () {
                        async: true,
                        crossDomain: true,
                        success: function (result) {
-                           for (x in result.body) {
-                           alert(x + ' = ' + result.body[x]);
+
+                           var jsonparse = JSON.parse(result.body);
+
+                           for (x in jsonparse) {
+                           alert(x + ' = ' + jsonparse[x]);
                            };
                             $(".custom_ajax").html("Congratulations! Your spot is reserved");
                 
