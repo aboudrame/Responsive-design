@@ -167,8 +167,12 @@ $(function () {
                        success: function (result) {
                              var d = $.parseJSON(JSON.stringify(result));
                     
-                            $.each(d, function (index, jsondata) {
-                                    alert(index + ' = ' + jsondata);
+                            $.each(d, function (index, value) {
+                                    alert(index + ' = ' + value);
+                                    if (index == "body") {
+                                        var d2 = $.parseJSON(JSON.stringify(value));
+                                        alert(d2);
+                                    }
                             });
 
                             $(".custom_ajax").html("Congratulations! Your spot is reserved");
