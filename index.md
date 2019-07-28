@@ -165,8 +165,12 @@ $(function () {
                        method: "GET",
                        dataType: "json",
                        success: function (result) {
-                            // var d = $.parseJSON(JSON.stringify(result));
-                            // var x = $.parseJSON(JSON.stringify(d.body)); to be continue
+                             var d = $.parseJSON(JSON.stringify(result));
+                    
+                            $.each(d, function (index, jsondata) {
+                                    alert(index + ' = ' + jsondata.submitok);
+                            });
+
                             $(".custom_ajax").html("Congratulations! Your spot is reserved");
                 
                        }
