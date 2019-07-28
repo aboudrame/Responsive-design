@@ -151,7 +151,9 @@ $(function () {
         },
 
         bluebtn: function () {
+            //always hide these 2 on clicks
             $('.custom_alert').hide();
+            $('.custom_ajax').hide();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
@@ -172,12 +174,11 @@ $(function () {
 
                            for (x in jsonparse) {
                                if (x == "submitok") {
-                                    //alert(x + ' = ' + jsonparse[x]);
-                                    $(".custom_ajax").html(jsonparse[x]);
+                                    $(".custom_ajax")
+                                        .html(jsonparse[x])
+                                        .show();
                                }
                            };
-                           // $(".custom_ajax").html("Congratulations! Your spot is reserved");
-                
                        }
                    });
                 
