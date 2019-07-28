@@ -103,7 +103,10 @@ $(function () {
         sync: function () {
 
             $('.checkbox > input').off('click').on('click', function () {
+                //Always hide these 2 on clicks
                 $('.custom_alert').hide();
+                $('.custom_ajax').hide();
+
                 if ( $(this).attr('checked') === 'checked' ) {
                     $('.checkbox > input')
                             .removeAttr('checked')
@@ -151,9 +154,7 @@ $(function () {
         },
 
         bluebtn: function () {
-            //always hide these 2 on clicks
             $('.custom_alert').hide();
-            $('.custom_ajax').hide();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
