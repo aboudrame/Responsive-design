@@ -164,6 +164,8 @@ $(function () {
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        method: "GET",
                        dataType: "json",
+                       async: true,
+                       crossDomain: true,
                        success: function (result) {
                     
                            alert(result.body.submitok);
