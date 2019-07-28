@@ -167,8 +167,9 @@ $(function () {
                        async: true,
                        crossDomain: true,
                        success: function (result) {
-                    
-                           alert(result.body.submitok);
+                           for (x in result.body) {
+                           alert(x + ' = ' + result.body[x]);
+                           };
                             $(".custom_ajax").html("Congratulations! Your spot is reserved");
                 
                        }
