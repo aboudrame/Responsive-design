@@ -53,15 +53,16 @@ live Webinar Here!
         </table>
     </div>
 </div>
+</div> <!-- row -->
 
-<div class="col-12 profile-container">
-<div class="profile align-center Background-Dark-Blue" >
+<div class="row profile-container">
+<div class="col-md-6 profile align-center Background-Dark-Blue" >
 <p style="text-align: center; max-width: 200px; margin: auto;"><img src="RGS_Hotlist_0617_JimRickards.png"/></p>
 <span class="Text-white">Presented by best-selling author and gold expert… </span><br>
 <span class="Text-white Text-bold"> JAMES G. RICKARDS </span>
 </div>
 
-<div class="Open-questions">
+<div class="col-md-6 Open-questions">
 <p class="align-center Text-bold">I’m going to show you…</p>
 
 
@@ -90,7 +91,7 @@ Why you’ll hear predictions of doom for the gold market (it’s important you 
 Why we may see confirmation that gold will make a run at $2,000 sooner than anyone thinks...
 </p>
 </div> <!-- Open-questions -->
-</div> <!-- profile-container-->
+</div> <!-- row-->
 <div class="col-12 Background-Pink warning align-center" style="display: flex; justify-content: center;" > 
 <div style="padding-top: 5px">
 <img src="RGS_Hotlist_0617_Warning.png" />
@@ -102,7 +103,7 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 </div>
 </div>
 <div class="col-12" >
-<p class="claim Background-Dark-Blue align-center Text-white" style="padding-top: 15px; padding-bottom: 15px;">
+<p class="claim Background-Dark-Blue align-center Text-white" style="padding-top: 15px; padding-bottom: 15px; margin-bottom: 0;">
     Claim your spot below before it's too late!
 </p>
 </div>
