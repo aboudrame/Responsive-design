@@ -104,11 +104,7 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
     Claim your spot below before it's too late!
 </p>
 </div>
-<div class="col-12">
-<p style="padding: 0; margin: 0 auto; text-align: center; max-width: 150px;">
-    <img src="Triangle.gif" />
-</p>
-</div>
+<div class="col-12 align-center" ><img src="Triangle.gif" /></div>
 
 <div class="col-12 align-center" style="padding-top: 0px; margin-top: 0;">
     <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
