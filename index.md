@@ -23,19 +23,19 @@ as Much as <span class="Text-Light-Blue"> $101,000 in Profit</span>.”
 </p>
 </div>
 
-<div class="align-center" style="padding-top: 0px; margin-top: 0;">
+<div class="col-12 align-center" style="padding-top: 0px; margin-top: 0;">
     <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
     <div class="custom_alert" style="color: red;">Please check to receive a free newsletter BEFORE registering</div>
     <div class="custom_ajax" style="color: green; font-weight: bold;"> </div>
 </div>
 
-<div class="align-center Background-Medium-Blue Text-white Register marginLR20 Text-bold blue-button">
+<div class="col-12 align-center Background-Medium-Blue Text-white Register marginLR20 Text-bold blue-button">
 Register for this FREE <br> 
 live Webinar Here!
 </div>
 
-<div class="calendar-container">
+<div class="col-12 calendar-container">
     <div class="col-md-4 calendar Background-Light-Blue align-center padding25-40-40-40">
         <img src="RGS_Hotlist_0617_Calendar.png" />
         <div class="Text-white"> <span class="Text-bold">May 29 </span><br> 5 PM EDT</div>
@@ -54,7 +54,7 @@ live Webinar Here!
     </div>
 </div>
 
-<div class="profile-container Background-Dark-Blue">
+<div class="col-12 profile-container Background-Dark-Blue">
 <div class="profile align-center" >
 <p style="text-align: center; max-width: 200px; margin: auto;"><img src="RGS_Hotlist_0617_JimRickards.png"/></p>
 <span class="Text-white">Presented by best-selling author and gold expert… </span><br>
@@ -91,7 +91,7 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 </p>
 </div> <!-- Open-questions -->
 </div> <!-- profile-container-->
-<div class="Background-Pink warning align-center" style="display: flex; justify-content: center;" > 
+<div class="col-12 Background-Pink warning align-center" style="display: flex; justify-content: center;" > 
 <div>
 <img src="RGS_Hotlist_0617_Warning.png" />
 </div>
@@ -99,22 +99,25 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </div>
 </div>
-
-<p class="claim Background-Dark-Blue align-center Text-white" style="margin-bottom: 0;">
+<div class="col-12" style="padding: 0">
+<p class="claim Background-Dark-Blue align-center Text-white" style="padding-top: 15px; padding-bottom: 15px;">
     Claim your spot below before it's too late!
 </p>
+</div>
+<div class="col-12">
 <p style="padding: 0; margin: 0 auto; text-align: center; max-width: 150px;">
     <img src="Triangle.gif" />
 </p>
+</div>
 
-<div class="align-center" style="padding-top: 0px; margin-top: 0;">
+<div class="col-12 align-center" style="padding-top: 0px; margin-top: 0;">
     <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
     <div class="custom_alert" style="color: red;">Please check to receive a free newsletter BEFORE registering!</div>
     <div class="custom_ajax" style="color: green; font-weight: bold;"> </div>
  </div>
 
-<div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20 blue-button">
+<div class="col-12 align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20 blue-button">
 YES! Reserve My Spot Now! >>
 </div>
 </div>
