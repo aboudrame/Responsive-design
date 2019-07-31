@@ -102,7 +102,7 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
     </p>
 </div>
 </div>
-<div class="col-12" >
+<div class="col-12 claim-spot" >
 <p class="claim Background-Dark-Blue align-center Text-white" style="padding-top: 15px; padding-bottom: 15px; margin-bottom: 0;">
     Claim your spot below before it's too late!
 </p>
@@ -118,6 +118,5 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 
 <div class="col-12 align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20 blue-button">
 YES! Reserve My Spot Now! >>
-</div>
 </div>
 <div style="text-align: right">By <strong>Aboubacar DRAME</strong> <br> professional full stack web developer</div>

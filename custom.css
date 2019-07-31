@@ -21,6 +21,7 @@ body {
 .Text-white {color: #FFF;}
 .calendar-container {display: flex;}
 .calendar-text {width: 100%;}
+.claim-spot {padding: 0;}
 .paddingTop25 {padding-top: 25px;}
 .calendar img {width: 100%; max-width: 80px}
 .padding25-40-40-40 {padding: 25px 40px 40px 40px }
