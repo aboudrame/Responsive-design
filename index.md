@@ -53,7 +53,7 @@ live Webinar Here!
         </table>
     </div>
 </div>
-</div> <!-- row -->
+</div> 
 
 <div class="row profile-container">
 <div class="col-md-6 profile align-center Background-Dark-Blue" >
