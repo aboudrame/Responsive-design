@@ -20,12 +20,11 @@ body {
 .Text-bold {font-weight: bold;}
 .Text-white {color: #FFF;}
 .calendar-container {display: flex;}
-
 .calendar-text {width: 100%;}
 .paddingTop25 {padding-top: 25px;}
 .calendar img {width: 100%; max-width: 80px}
 .padding25-40-40-40 {padding: 25px 40px 40px 40px }
-.profile-container { display: flex; margin-top: 20px;}
+.profile-container { display: flex; margin-top: 20px; margin-left: 0; margin-right: 0;}
 .profile-container div {width: 50%; padding-top: 20px;}
 .Open-questions {background-color: #E8E8E8; color: #000; padding: 20px;}
 .Open-questions .cbox {width: 35px; display: inline-block;}
