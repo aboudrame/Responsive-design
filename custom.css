@@ -20,7 +20,7 @@ body {
 .Text-bold {font-weight: bold;}
 .Text-white {color: #FFF;}
 .calendar-container {display: flex;}
-.calendar {margin-right: 10px}
+
 .calendar-text {width: 100%;}
 .paddingTop25 {padding-top: 25px;}
 .calendar img {width: 100%; max-width: 80px}

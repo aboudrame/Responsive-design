@@ -40,7 +40,7 @@ live Webinar Here!
         <img src="RGS_Hotlist_0617_Calendar.png" />
         <div class="Text-white"> <span class="Text-bold">May 29 </span><br> 5 PM EDT</div>
     </div>
-    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
+    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20" style="border-left: solid #000;">
         TIME LEFT UNTIL THE WEBINAR STARTS... <br>
         <span class="countdown"> </span>
         <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" style="color: #000; display: inline;" >
