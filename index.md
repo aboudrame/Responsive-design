@@ -4,16 +4,6 @@
 <link rel="stylesheet" type="text/css" href="custom.css">
 <script type="text/javascript" src="custom.js" > </script>
 
-<style type="text/css">
- 
-
-</style>
-
-<script type="text/javascript">
-
-
-</script>
-
 <div class="row">
 <div class="col-12">
 <p class="align-center">Best-Selling Author and Gold Expert <br>
