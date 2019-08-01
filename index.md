@@ -40,10 +40,10 @@ live Webinar Here!
         <img src="RGS_Hotlist_0617_Calendar.png" />
         <div class="Text-white"> <span class="Text-bold">May 29 </span><br> 5 PM EDT</div>
     </div>
-    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20" style="border-left: solid 10px #FFF;">
+    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
         TIME LEFT UNTIL THE WEBINAR STARTS... <br>
         <span class="countdown"> </span>
-        <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" style="color: #000; display: inline;" >
+        <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" style="color: #000; display: table;" >
         <tr>
             <th>Days</th><th>Hours</th><th>Minutes</th><th>Seconds</th>
         </tr>
@@ -110,7 +110,7 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 <div class="col-12 align-center" ><img src="Triangle.gif" /></div>
 
 <div class="col-12 align-center" style="padding-top: 0px; margin-top: 0;">
-    <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
+    <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync"></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
     <div class="custom_alert" style="color: red;">Please check to receive a free newsletter BEFORE registering!</div>
     <div class="custom_ajax" style="color: green; font-weight: bold;"> </div>

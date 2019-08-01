@@ -52,11 +52,6 @@ body {
     box-sizing: border-box;
  }
 
-.marginLR20 {
-    margin-left: 20px;
-    margin-right: 20px; 
-}
-
  .Register {
     max-width: initial;
  }
