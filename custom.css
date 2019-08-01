@@ -32,6 +32,7 @@ body {
 .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
 .warning, .claim {padding: 10px; margin: 0}
 .warning {margin-top: 10px;}
+.warning p {margin-bottom: 0;}
 .warning img {width: 30px; background-color: initial; }
 .cbox, .cbox img {background-color: #E8E8E8;}
 
