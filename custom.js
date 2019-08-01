@@ -44,8 +44,8 @@ $(function () {
                               msWebinarDate.getMinutes() + ":" +
                               msWebinarDate.getSeconds()
 
-            $('.webinar-date').html( webinarDAY + ' at ' + webinarTime);
-            
+            $('.webinar-date').html( webinarDAY + ' at ' + webinarDAY.getTime());
+
             //Refresh the current time every second and extract days, hours, minutes and seconds
             setInterval (function () {
                 var LoadDateTimeDesc = new Date();
