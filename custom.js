@@ -40,12 +40,12 @@ $(function () {
             var webinarDAY = msWebinarDate.getMonth() + "/" + 
                               msWebinarDate.getDate()  + "/" +
                               msWebinarDate.getFullYear();
-            var webinarTime = msWebinarDate.getHours() + ":" +
-                              msWebinarDate.getMinutes() + ":" +
-                              msWebinarDate.getSeconds()
+            var webinarTime = ("0" + msWebinarDate.getHours()).slice(-2) + ":" +
+                              ("0" + msWebinarDate.getMinutes()).slice(-2) + ":" +
+                              ("0" + msWebinarDate.getSeconds()).slice(-2)
 
-            $('.webinar-date').html( webinarDAY + ' at ' + webinarDAY.getTime());
-
+            $('.webinar-date').html( webinarDAY + ' at ' + webinarTime);
+            
             //Refresh the current time every second and extract days, hours, minutes and seconds
             setInterval (function () {
                 var LoadDateTimeDesc = new Date();
