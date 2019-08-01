@@ -43,7 +43,7 @@ live Webinar Here!
     <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
         TIME LEFT UNTIL THE WEBINAR STARTS... <br>
         <span class="countdown"> </span>
-        <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" style="color: #000; display: table;" >
+        <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" style="color: #000; background-color: #FFF; display: table;" >
         <tr>
             <th>Days</th><th>Hours</th><th>Minutes</th><th>Seconds</th>
         </tr>

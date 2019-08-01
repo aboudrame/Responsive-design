@@ -53,7 +53,7 @@ body {
  }
 
  .Register {
-    max-width: initial;
+    max-width: calc(100% - 30px);
  }
 
 .profile-container {
