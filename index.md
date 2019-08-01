@@ -50,6 +50,10 @@ live Webinar Here!
         <tr>
             <td class="days"></td><td class="hours"></td><td class="minutes"></td><td class="seconds"></td>
         </tr>
+        <tr>
+        <td colspan="4" class="webinar-date">
+        </td>
+        </tr>
         </table>
     </div>
 </div>
